@@ -1,0 +1,6 @@
+<h1>All Students</h1>
+<% @students.each do |student|%>
+<h2>Student ID: <%= student.id %></h2>
+<h2>First Name: <%= student.first_name %></h2>
+<h2>Last Name: <%= student.last_name %></h2>
+<% end %>
